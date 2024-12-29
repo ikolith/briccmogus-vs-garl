@@ -3,13 +3,14 @@ version 42
 __lua__
 #include includes/utils.p8
 
+DEBUG = false
+
 function _init()
 end
 
 function _update()
-  cls()
-  map()
-
+    cls()
+    map()
 end
 
 function _draw()
