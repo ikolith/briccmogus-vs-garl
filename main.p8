@@ -7,12 +7,19 @@ __lua__
 DEBUG = true
 
 function _init()
+  for x=0,127 do
+  for y=0,31 do
+    mset(x,y,63) -- 1 is your sprite number
+  end
+end
 end
 
 function _update()
 end
 
+
 function _draw()
+  map(0,0,0,0,128,32) -- draws the entire map
 end
 
 __gfx__
