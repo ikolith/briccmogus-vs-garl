@@ -7,6 +7,9 @@ function _init()
 end
 
 function _update()
+  cls()
+  map()
+
 end
 
 function _draw()
